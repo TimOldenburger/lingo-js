@@ -1,0 +1,40 @@
+body {
+	background-color: #FFFFFF;
+	font-size: 70px;
+	color: #FFFFFF;
+}
+
+table {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 5px;
+	margin-left: 35%;
+}
+
+td {
+	height: 70px;
+	width: 75px;
+	border: solid 2px white;
+	text-align: center;
+}
+
+tr, td {
+	background-color: #0000FF;
+	padding: 5px;
+}
+
+#woord {
+	margin: 0;
+}
+
+.firstletter {
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
+}
+
+.invoer {
+	position: relative;
+	left: 40%;
+}

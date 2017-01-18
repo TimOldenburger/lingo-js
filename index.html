@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lingo</title>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="woordenlijst.json"></script>
+</head>
+<body>
+	
+	<button class="invoer" onclick="myFunction()">Reset game</button>
+	<input class="invoer" id="guess" type="text" name="Lingo" maxlength="5">
+	<input class="invoer" type="submit" value="Check!" onclick="raadHetWoord()">
+	<table>
+
+		<tr id="line_1">
+			<td class="input"><p class="firstletter"></p></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+		</tr>
+
+		<tr id="line_2">
+			<td class="input"><p class="firstletter"></p></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+		</tr>
+
+		<tr id="line_3">
+			<td class="input"><p class="firstletter"></p></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+		</tr>
+
+		<tr id="line_4">
+			<td class="input"><p class="firstletter"></p></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+		</tr>
+
+		<tr id="line_5">
+			<td class="input"><p class="firstletter"></p></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+			<td class="input"></td>
+		</tr>
+
+	</table>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
